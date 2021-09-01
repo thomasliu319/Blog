@@ -26,6 +26,8 @@ input {
 
 #启动Elasticsearch实例，然后启动logstash,并指定配置文件导入数据
 bin/logstash -f /YOUR_PATH_of_logstash.conf
+
+bin/logstash -f /Users/thomasliu/Blog/ELK/part-1/2.4-Logstash安装与导入数据/movielens/logstash.conf
 ```
 
 ## 相关阅读
